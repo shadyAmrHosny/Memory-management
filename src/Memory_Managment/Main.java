@@ -21,7 +21,7 @@ public class Main {
         ArrayList<Process> processes= new ArrayList<>();
         for (int i=0;i<NProcesses;i++)
         {
-            System.out.print("ENTER SIZE OF PROCESS"+(i+1)+':');
+            System.out.print("ENTER THE SIZE OF PROCESS"+(i+1)+':');
             size= cin.nextDouble();
             processes.add(new Process("Process "+(i+1),size));
         }
